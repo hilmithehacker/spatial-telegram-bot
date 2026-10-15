@@ -1,0 +1,19 @@
+{
+  "name": "urban-tech-telegram-agent",
+  "version": "1.0.0",
+  "description": "Telegram AI & Remote Control Bridge for QGIS, SaaS, and Antigravity Agent",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "spatial": "node spatial_bot.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.10",
+    "archiver": "^8.0.0",
+    "dotenv": "^16.4.7",
+    "geotiff": "^3.0.5",
+    "jimp": "^1.6.1",
+    "shpjs": "^6.2.0",
+    "xlsx": "^0.18.5"
+  }
+}
